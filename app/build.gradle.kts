@@ -4,11 +4,12 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 dependencies {
-    implementation ("com.google.android.gms:play-services-maps:19.0.0")// Google Maps SDK
-    implementation ("com.google.android.gms:play-services-location:21.3.0") // Dịch vụ vị trí
-    implementation ("androidx.core:core-ktx:1.15.0") // Core KTX (nếu chưa có)
-    implementation ("androidx.cardview:cardview:1.0.0")
-    implementation ("androidx.constraintlayout:constraintlayout:2.0.4") // Kiểm tra và cập nhật phiên bản nếu cần
+    implementation (libs.play.services.maps)// Google Maps SDK
+    implementation (libs.play.services.location) // Dịch vụ vị trí
+    implementation (libs.androidx.core.ktx) // Core KTX (nếu chưa có)
+    implementation (libs.androidx.cardview)
+    implementation (libs.androidx.constraintlayout) // Kiểm tra và cập nhật phiên bản nếu cần
+    implementation (libs.material) // Hoặc phiên bản mới nhất
 }
 
 android {

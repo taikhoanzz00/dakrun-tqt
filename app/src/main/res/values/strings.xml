@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">locationapp</string>
+    <string name="app_name">DakRun</string>
+    <string name="connect">Kết nối</string>
+    <string name="connected">Connected</string>
+    <string name="unknown">Unknown</string>
+    <string name="accessed">Accessed</string>
+    <string name="h_th_ng_n_xe_tr_c_tuy_n_c_ng_daksystem">Hệ thống đón xe trực tuyến cùng Daksystem</string>
+    <string name="unknownn">Unknown</string>
+    <string name="nh_p_m">Nhập mã</string>
+    <string name="t_m_ki_m">Tìm kiếm</string>
+    <string name="t_o_m_xe">Tạo mã xe</string>
+    <string name="dakrun">DakRun</string>
 </resources>

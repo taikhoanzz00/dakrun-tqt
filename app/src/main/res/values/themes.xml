@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Locationapp" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Style chính của ứng dụng -->
+    <style name="Theme.DakRun" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Màu nền chính -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Màu nền phụ -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Cài đặt trạng thái và văn bản -->
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
 </resources>
